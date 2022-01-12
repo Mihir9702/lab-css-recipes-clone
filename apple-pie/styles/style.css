@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.title {
+  top: 250px;
+  width: 100vh;
+  position: absolute;
+  width: 100%;
+  font-size: 64px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  position: relative;
+  color: gray;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: bold;
+}
+
+hr {
+  margin: auto;
+}
+
+h2 {
+  position: relative;
+  right: 400px;
+}
+
+.ingList {
+  position: relative;
+  right: 150px;
+}
+
+.dirList {
+  position: relative;
+}
+
+li {
+  list-style-type: "-";
+  font-style: bold;
+  font-size: 22px;
+}
+
+.cookImg {
+  position: relative;
+}
+
+#dir1 {
+  list-style-type: "1) ";
+}
+#dir2 {
+  list-style-type: "2) ";
+}
+#dir3 {
+  list-style-type: "3) ";
+}
